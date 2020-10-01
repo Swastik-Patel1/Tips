@@ -1,0 +1,247 @@
+using System;
+ 
+class MainClass {
+ public static void Main (string[] args) {
+   // Variable Declaration
+   string fortune1, fortune2, fortune3, fortune4;
+   string fortune5, fortune6, fortune7, fortune8;
+   string userInput, userInput2, userInput3, userInput4;
+   // Fortune Statements
+   fortune1 = ">You will try to withdraw some money but end up giving twice as much.";
+   fortune2 = ">You will be in a good mood but something bad will have happened(you are sheltered so it is ).";
+   fortune3 = ">You will do surprisingly good on a project you did not study for.";
+   fortune4 = ">You should be wary- the people you trust will betray you.";
+   fortune5 = ">You did not prepare for something but something will occur and give you more time.";
+   fortune6 = ">You will lose half your money. If you have none you will be okay.";
+   fortune7 = ">You will not have a chance to go on a trip. Fortunately, it will be detrimental to those who go.";
+   fortune8 = ">You will lose many friends in a selfish act.";
+ 
+   Console.WriteLine("\nWelcome to the fortune teller game! The game starts off with the fortune teller going upward and each number corresponds to how many times the fortune teller is opened and closed.");
+
+   // The user is told to pick a color 
+   Console.WriteLine("\n>Pick a color: Red, Blue, Yellow, or Green:\n");
+   //The first userInput is labelled userInput1
+   userInput = Console.ReadLine();
+   
+   // Blue and Red have the same loops because their numbers are same
+   if (userInput == "Red" || userInput == "red" || userInput == "Blue" || userInput == "blue")
+   {
+     Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6. Type and press enter.\n");
+     userInput2 = Console.ReadLine();
+     if (userInput2 == "1" || userInput2 == "5")
+     {
+       Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+       userInput3 = Console.ReadLine();
+       if (userInput3 == "4" || userInput3 == "8")
+       {
+         Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+         userInput4 = Console.ReadLine();
+        
+         if (userInput4 == "3")
+         {
+           Console.WriteLine(fortune3);
+         }
+         if (userInput4 == "4")
+         {
+           Console.WriteLine(fortune4);
+         }
+         if (userInput4 == "7") {
+           Console.WriteLine(fortune7);
+         }
+         if (userInput4 == "8") {
+           Console.WriteLine(fortune8);
+         }
+         if (userInput4 != "3" || userInput4 != "4" || userInput4 != "" ||userInput4 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       if (userInput3 == "3" || userInput3 == "7")
+       {
+         Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6:\n");
+         userInput4 = Console.ReadLine();
+ 
+         if (userInput4 == "1"){
+           Console.WriteLine(fortune1);
+         }
+         if (userInput4 == "2") {
+           Console.WriteLine(fortune2);
+         }
+         if (userInput4 == "5"){
+           Console.WriteLine(fortune5);
+         }
+         if (userInput4 == "6"){
+           Console.WriteLine(fortune6);
+         }
+         if (userInput4 != "1" || userInput4 != "2" || userInput4 != "5" ||userInput4 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+     }
+     if (userInput2 == "2" || userInput2 == "6")
+     {
+       Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6:\n");
+       userInput3 = Console.ReadLine();
+       if (userInput3 == "2" || userInput3 == "6")
+       {
+         Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6:\n");
+         userInput4 = Console.ReadLine();
+ 
+         if (userInput4 == "1"){
+           Console.WriteLine(fortune1);
+         }
+         if (userInput4 == "2") {
+           Console.WriteLine(fortune2);
+         }
+         if (userInput4 == "5"){
+           Console.WriteLine(fortune5);
+         }
+         if (userInput4 == "6"){
+           Console.WriteLine(fortune6);
+         }
+         if (userInput4 != "1" || userInput4 != "2" || userInput4 != "5" ||userInput4 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       if (userInput3 == "1" || userInput3 == "5")
+       {
+          Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+         userInput4 = Console.ReadLine();
+        
+         if (userInput4 == "3")
+         {
+           Console.WriteLine(fortune3);
+         }
+         if (userInput4 == "4")
+         {
+           Console.WriteLine(fortune4);
+         }
+         if (userInput4 == "7") {
+           Console.WriteLine(fortune7);
+         }
+         if (userInput4 == "8") {
+           Console.WriteLine(fortune8);
+         }
+         if (userInput4 != "3" || userInput4 != "4" || userInput4 != "7" ||userInput4 != "8") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+ 
+     }
+   }
+   // Ye;;ow and Green are the same loops
+   if (userInput == "Yellow" || userInput == "yellow" || userInput == "Green" || userInput == "green")
+   {
+     Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+     userInput2 = Console.ReadLine();
+     if (userInput2 == "4"|| userInput2 == "8")
+     {
+       Console.WriteLine("\n>Pick a number: 3, 4, 7, 8:\n");
+       userInput3 = Console.ReadLine();
+      
+       if (userInput3 == "3" || userInput3 == "7")
+       {
+         Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6:\n");
+         userInput4 = Console.ReadLine();
+ 
+         if (userInput4 == "1"){
+           Console.WriteLine(fortune1);
+         }
+         if (userInput4 == "2") {
+           Console.WriteLine(fortune2);
+         }
+         if (userInput4 == "5"){
+           Console.WriteLine(fortune5);
+         }
+         if (userInput4 == "6"){
+           Console.WriteLine(fortune6);
+         }
+         if (userInput4 != "1" || userInput4 != "2" || userInput4 != "5" ||userInput4 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       }
+       if (userInput3 == "4" || userInput3 == "8")
+       {
+         Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+         userInput4 = Console.ReadLine();
+        
+         if (userInput4 == "3")
+         {
+           Console.WriteLine(fortune3);
+         }
+         if (userInput4 == "4")
+         {
+           Console.WriteLine(fortune4);
+         }
+         if (userInput4 == "7") {
+           Console.WriteLine(fortune7);
+         }
+         if (userInput4 == "8") {
+           Console.WriteLine(fortune8);
+         }
+         if (userInput4 != "4" || userInput4 != "8" || userInput4 != "3" ||userInput4 != "7") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       }
+       if (userInput3 != "4" || userInput3 != "8" || userInput3 != "3" ||userInput3 != "7") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+     }
+     if (userInput2 == "3"|| userInput2 == "7")
+     {
+       Console.WriteLine("\n>Pick a number: 1, 2, 5, 6:\n");
+       userInput3 = Console.ReadLine();
+       if (userInput3 == "2" || userInput3 == "6")
+       {
+         Console.WriteLine("\n>Pick a number: 1, 2, 5, or 6:\n");
+         userInput4 = Console.ReadLine();
+ 
+         if (userInput4 == "1"){
+           Console.WriteLine(fortune1);
+         }
+         if (userInput4 == "2") {
+           Console.WriteLine(fortune2);
+         }
+         if (userInput4 == "5"){
+           Console.WriteLine(fortune5);
+         }
+         if (userInput4 == "6"){
+           Console.WriteLine(fortune6);
+         }
+         if (userInput4 != "1" || userInput4 != "2" || userInput4 != "5" ||userInput4 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       }
+       if (userInput3 == "1" || userInput3 == "5")
+       {
+         Console.WriteLine("\n>Pick a number: 3, 4, 7, or 8:\n");
+         userInput4 = Console.ReadLine();
+        
+         if (userInput4 == "3")
+         {
+           Console.WriteLine(fortune3);
+         }
+         if (userInput4 == "4")
+         {
+           Console.WriteLine(fortune4);
+         }
+         if (userInput4 == "7") {
+           Console.WriteLine(fortune7);
+         }
+         if (userInput4 == "8") {
+           Console.WriteLine(fortune8);
+         }
+         if (userInput4 != "3" || userInput4 != "4" || userInput4 != "7" ||userInput4 != "8") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       }
+       if (userInput3 != "1" || userInput3 != "2" || userInput3 != "5" ||userInput3 != "6") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+       }
+       }
+       if (userInput2 != "3" || userInput2 != "4" || userInput2 != "7" ||userInput2 != "8") {
+         Console.WriteLine("You did not pick the numbers specified. Please retry.");
+     }
+    
+   }
+   if (userInput != "Red" || userInput != "red" || userInput != "Blue" || userInput != "blue" || userInput != "Yellow" || userInput != "yellow" || userInput != "Green" || userInput != "green") {
+     Console.WriteLine(">You did not pick one of the four colors avaliable. Please retry");
+}
+    }
+   }
+  }
