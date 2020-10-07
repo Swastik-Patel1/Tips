@@ -4,7 +4,10 @@ screen = turtle.Screen()
 screen.bgcolor("yellowgreen")
 screen.title("Good boi.")
 
-print(screen)
-
+## ANIMATES A LOADING BAR; CAN USE FOR FUTURE APPLICATIONS
 my_turtle = turtle.Turtle()
-my_turtle.pensize(10)
+my_turtle.pensize(12)
+my_turtle.shape("circle")
+for i in range(0, 20):
+    my_turtle.forward(i)
+    print(screen)
