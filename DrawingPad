@@ -1,0 +1,10 @@
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("yellowgreen")
+screen.title("Good boi.")
+
+print(screen)
+
+my_turtle = turtle.Turtle()
+my_turtle.pensize(10)
