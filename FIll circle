@@ -1,0 +1,18 @@
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("teal")
+screen.title("Circle")
+
+my_turtle = turtle.Turtle()
+my_turtle.pensize(5)
+
+num = int(input("Enter a radius:\n"))
+while num < 0 or num > 200:
+    num = int(input("Radius is out of range, enter a different radius:\n"))
+
+my_turtle.begin_fill()
+my_turtle.circle(num)
+my_turtle.end_fill()
+
+my_turtle.done()
