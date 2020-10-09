@@ -1,2 +1,8 @@
 
 ## Palindrome
+
+def palindrome(word):
+    pass
+
+word = str(input("Enter a word:\n"))
+
