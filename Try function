@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# Copyright 2009-2017 BHG http://bw.org/
+
+## Testing out the try function
+
+addr = int(input("Enter a number:\n"))
+try:
+    (addr[0])
+    print("Valid")
+except TypeError:
+    print("Invalid")
