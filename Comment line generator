@@ -1,0 +1,6 @@
+## Comment line generator
+
+length = int(input("Enter length of comment line:\n"))
+
+for i in range(length):
+    print("#", end = ""); ## Like a 'Console.Write' statement, no spaces between #'s
