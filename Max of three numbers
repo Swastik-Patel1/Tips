@@ -1,0 +1,13 @@
+## Exercise 1
+## Write a Python function to find the Max of three numbers
+
+def maxNum(numList):
+    print("Largest value:",max(numList))
+
+numList = [];
+
+for i in range(1, 4):
+    num = float(input("Enter a number:\n"));
+    numList.append(num);
+
+maxNum(numList)
