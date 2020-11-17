@@ -1,0 +1,19 @@
+## Python Conditional Statements and Loops Exercise 2
+## Write a Python program to convert temperatures to and from celsius, fahrenheit.
+## Formula : c/5 = f-32/9
+
+class Temperature:
+    def celsius(self):
+        actualTemp = float(input("Enter the temperature in Faranheit:\n"))
+        print(f"{round(((5 * (actualTemp - 32) / 9)), 2)}ºC")
+        
+    def faranheit(self):
+        actualTemp = float(input("Enter the temperature in celsius:\n"))
+        print(f"{round(((9 / 5) * actualTemp + 32), 2)}")
+
+temp = str(input("Faranheit or Celsius?\n"))
+t = Temperature()
+if temp.upper() == "C":
+    t.celsius()
+elif temp.upper() == "F":
+    t.faranheit()
