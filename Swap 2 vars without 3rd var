@@ -1,0 +1,10 @@
+## Swap 2 vars 
+
+a = 5
+b = 10
+print(f"1) A = {a}, B = {b}")
+
+a += b
+b = a - b
+a -= b
+print(f"2) A = {a}, B = {b}")
