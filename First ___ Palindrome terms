@@ -1,0 +1,25 @@
+## First ___ Palindrome terms
+
+def palindrome(n):
+    num1 = 1
+    num2 = 1
+    
+    numList = []
+    
+    numList.append(num1)
+    numList.append(num2)
+    
+    while len(numList) < (n):
+        current = num1 + num2
+        num1 = num2
+        num2 = current
+        numList.append(current)
+        
+    return numList
+
+try:
+    num = int(input("How many terms do you want?\n"))
+except ValueError:
+    num = int(input("How many terms do you want?\n"))
+    
+print(f"The first {num} terms are:",palindrome(num))
