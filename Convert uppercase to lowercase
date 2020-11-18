@@ -1,0 +1,4 @@
+## Convert uppercase to lowercase
+string1 = str(input("Enter a phrase:\n"))
+
+print(string1.capitalize())
