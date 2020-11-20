@@ -1,0 +1,6 @@
+# 11/19/20
+
+word = str(input("Enter a word/phrase:"))
+tuplex = tuple(word)
+print("Index = 3:",tuplex[3])
+print("Index = 4 from the end:",tuplex[-4])
