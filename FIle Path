@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+# Copyright 2009-2017 BHG http://bw.org/
+
+from pathlib import Path
+path = Path('.').parent / 'data'
+print("Path:",path.absolute())
