@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# Copyright 2009-2017 BHG http://bw.org/
+
+list1 = [];
+
+list2 = [1, 1, 2, 3, 4, 5, 7, 8, 8, 9, 10]
+
+for i in range(len(list2)):
+    if list2[i] not in list1:
+        list1.append(list2[i])
+
+for i in range(len(list1)):
+    print(list1[i], end = " ")
+
+print()
