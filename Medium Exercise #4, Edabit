@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+
+namespace w3Resource_Exercises
+{
+    public class Randomstuff
+    {
+        public static void Main(string[] args)
+        {
+
+            // Medium Exercise #4, Edabit
+            // Array of Multiples
+            // Create a function that takes two numbers as arguments (num, length) and
+            // returns an array of multiples of num until the array length reaches length.
+
+            Console.WriteLine("Enter a number of which you want multiples of:");
+            int num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("How many multiples do you want?");
+            int length = int.Parse(Console.ReadLine());
+
+
+        }
+    }
+}
