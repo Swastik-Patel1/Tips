@@ -7,8 +7,8 @@ namespace w3Resource_Exercises
     {
         public static void Main(string[] args)
         {
-
             // Medium Exercise #4, Edabit
+            
             // Array of Multiples
             // Create a function that takes two numbers as arguments (num, length) and
             // returns an array of multiples of num until the array length reaches length.
@@ -19,7 +19,16 @@ namespace w3Resource_Exercises
             Console.WriteLine("How many multiples do you want?");
             int length = int.Parse(Console.ReadLine());
 
+            var multipleList = new List<int>() { };
 
+            for (int i = 1; i <= length; i++)
+            {
+                multipleList.Add(num * i);
+            }
+            foreach (var multiple in multipleList)
+            {
+                Console.Write("{0} ", multiple);
+            }
         }
     }
 }
