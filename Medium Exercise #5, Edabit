@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+
+namespace w3Resource_Exercises
+{
+    public class Randomstuff
+    {
+        public static void Main(string[] args)
+        {
+            // Medium Exercise #5, Edabit
+            // Reverse the Case
+
+            Console.WriteLine("Enter a word/phrase:");
+            string phrase = Console.ReadLine();
+
+            foreach (char ch in phrase)
+            {
+                if (Char.ToLower(ch) == ch)
+                {
+                    Console.Write(Char.ToUpper(ch));
+                }
+                else if (Char.ToUpper(ch) == ch)
+                {
+                    Console.Write(Char.ToLower(ch));
+                }
+            }
+
+        }
+    }
+}
