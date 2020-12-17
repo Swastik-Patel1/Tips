@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+namespace w3Resource_Exercises
+{
+    public class Randomstuff
+    {
+        public static void Main(string[] args)
+        {
+        
+            var monthList = new List<string>() {"January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November", "December"};
+
+            Console.WriteLine("What month do you want?");
+        }
+    }
+}
