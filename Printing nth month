@@ -7,10 +7,14 @@ namespace w3Resource_Exercises
     {
         public static void Main(string[] args)
         {
-        
+            // Printing nth month
+
             var monthList = new List<string>() {"January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November", "December"};
 
             Console.WriteLine("What month do you want?");
+            int month = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(monthList[month-1]);
         }
     }
 }
