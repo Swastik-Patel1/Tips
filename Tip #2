@@ -1,0 +1,6 @@
+## Tip #2: If you double click 'tab' on a loop, for ex: for loop, it shows the syntax for it
+## Example:
+## for
+## ...double click...
+# for i in range:
+#     code
