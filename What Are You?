@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+#Copyright 2009-2017 BHG http://bw.org/
+
+def whatAreYou(): 
+    name = str(input("Hi, what is your name? "))
+    personality = str(input("What are you? "));
+    return (f"\n\nHello {name}, you are a {personality}.");
+
+result = whatAreYou();
+if(result[4] == 'g'):
+    print(result+" How gracious!");
+else:
+    print(result+" My condolences to you and your family.");
+
+# if starts with s, then put my condolences.
+# if starts with g, then put 
