@@ -1,0 +1,10 @@
+## Tip #3
+# Using the ':,' gets you commas in between every 3 digits in the returned value
+
+def commas(num):
+    return f"{num:,}"
+
+print(commas(109309290))
+print(commas(2345))
+print(commas(0))
+print(commas(12929839829.009090932737267327372))
