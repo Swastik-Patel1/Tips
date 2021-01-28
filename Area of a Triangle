@@ -1,0 +1,10 @@
+## Area of a Triangle
+# 1/27/21
+def TriArea(base, height):
+    # ∆ formula = 1/2 * base * height
+    print("Area =",round(0.5 * base * height, 1));
+
+# ∆ = option + j
+base = float(input("Enter the ∆'s base length: "))
+height = float(input("Enter the ∆ height: "))
+TriArea(base, height)
