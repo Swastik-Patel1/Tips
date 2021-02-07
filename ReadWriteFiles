@@ -1,0 +1,10 @@
+# How to write/read stuff in files
+# go to w3schools.com for more info
+
+f = open("EdabitHard_45+.py", "a")
+f.write("No.")
+f.close()
+g = open("EdabitHard_45+.py", "r")
+print(g.read())
+g.close()
+
