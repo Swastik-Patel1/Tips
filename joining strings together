@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
+# 12/4/2020
 
 ## joining strings together:
-
 continents = "Asia, Europe, Africa, Australia, Antarctica";
 combine = "".join(continents);
 print(combine)
