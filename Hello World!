@@ -1,6 +1,7 @@
 #!/usr/bin/env python3                       #<--- Lets program know that language = python
 # Copyright 2009-2017 BHG http://bw.org/
+# Last edit: 8/16/21
 
-
+# How to edit code in Github
 print('Hello World!')
 #To edit the code in Github, click 'view' and change 'branch' to 'master'. 
