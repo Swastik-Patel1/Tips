@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+// Latest commit 6569b83 on Dec 16, 2020
+// How to use a string List in C#
 namespace w3Resource_Exercises
 {
     public class Randomstuff
