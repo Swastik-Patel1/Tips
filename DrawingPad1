@@ -1,3 +1,6 @@
+# Last commit on 10/06/20
+# Animating a loading bar in Python
+
 import turtle
 
 screen = turtle.Screen()
